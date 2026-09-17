@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Booking Form</title>
+</head>
+<body>
+    <center><h1>SAB ELECTRONICS</h1></center>
+     <marquee behavior="scroll" direction="left">
+        Welcome to SAB Electronics
+    </marquee>
+     <marquee behavior="scroll" direction="left">
+        iphone 18 sales starts from 21 september 2026
+    </marquee>
+    <hr>
+
+    <h2>Book Your iPhone Now</h2>
+    <hr>    
+
+    <form action="iphone.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="model">Select iPhone Model:</label>
+        <select id="model" name="model" required>
+            <option value="">--Select Model--</option>
+            <option value="iphone18">iPhone 18</option>
+            <option value="iphone18pro">iPhone 18 Pro</option>
+            <option value="iphone18max">iPhone 18 Max</option>
+            <option value="iphone18due">iPhone 18 DUE</option>
+        </select><br><br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <label for="payment_method">Payment Method:</label>
+        <select id="payment_method" name="payment_method" required>
+            <option value="">--Select Payment Method--</option>
+            <option value="credit_card">Credit Card</option>
+            <option value="debit_card">Debit Card</option>
+            <option value="paypal">PayPal</option>
+        </select><br><br>
+         <label for="deliver mode">deliver mode:</label>
+        <select id="deliver mode" name="delivery_mode" required>
+            <option value="">--store_pickup--</option>
+            <option value="home_delivery">Home Delivery</option>
+            
+        </select><br><br>
+
+        <label for="billing address">Billing_Address:</label>
+        <textarea id="billing address" name="billing address" required></textarea><br><br>
+
+        <input type="submit" value="Book Now">
+
+</body>
+<h3>THANKS AND VISIT AGAIN</h3>
+</html>
